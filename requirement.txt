@@ -1,0 +1,2 @@
+edvart==4.0.0
+sweetviz==2.3.1

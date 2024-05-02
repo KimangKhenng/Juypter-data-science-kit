@@ -1,0 +1,11 @@
+version: "2"
+services:
+  juypter:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "4000:8888"
+    volumes:
+      - ./work:/home/jovyan/work
+    container_name: juypter
